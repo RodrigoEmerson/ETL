@@ -19,6 +19,7 @@ else:
 print("Tipo de all_users:", type(all_users))
 print("Conteúdo de all_users:", all_users)
 
+
 def get_user(user_id):
     for user in all_users:
         if user["id"] == user_id:
