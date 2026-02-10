@@ -26,7 +26,9 @@ def get_user(user_id):
             return user
     return None
 
+
 users = [user for id in user_ids if (user := get_user(id)) is not None]
+
 
 print("Usuários encontrados:")
 print(json.dumps(users, indent=2, ensure_ascii=False))
