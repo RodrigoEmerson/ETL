@@ -1,5 +1,162 @@
 [
-  {"id": 0, "nome": "Rodrigo"},
-  {"id": 1, "nome": "Lumi"},
-  {"id": 2, "nome": "Nikoly"}
+  {
+    "id": 1,
+    "name": "Devweekerson",
+    "account": {
+      "id": 1,
+      "number": "01.097954-4",
+      "agency": "2030",
+      "balance": 624.12,
+      "limit": 1000.00
+    },
+    "card": {
+      "id": 1,
+      "number": "xxxx xxxx xxxx 1111",
+      "limit": 2000.00
+    }
+  },
+  {
+    "id": 2,
+    "name": "Lumi",
+    "account": {
+      "id": 2,
+      "number": "02.421879-9",
+      "agency": "2031",
+      "balance": 1500.55,
+      "limit": 1200.00
+    },
+    "card": {
+      "id": 2,
+      "number": "xxxx xxxx xxxx 2222",
+      "limit": 3000.00
+    }
+  },
+  {
+    "id": 3,
+    "name": "Nikoly",
+    "account": {
+      "id": 3,
+      "number": "03.785421-7",
+      "agency": "2032",
+      "balance": 880.32,
+      "limit": 900.00
+    },
+    "card": {
+      "id": 3,
+      "number": "xxxx xxxx xxxx 3333",
+      "limit": 1800.00
+    }
+  },
+  {
+    "id": 4,
+    "name": "Rodrigo",
+    "account": {
+      "id": 4,
+      "number": "04.998312-2",
+      "agency": "2033",
+      "balance": 3200.00,
+      "limit": 2500.00
+    },
+    "card": {
+      "id": 4,
+      "number": "xxxx xxxx xxxx 4444",
+      "limit": 4000.00
+    }
+  },
+  {
+    "id": 5,
+    "name": "Carlos",
+    "account": {
+      "id": 5,
+      "number": "05.213589-1",
+      "agency": "2034",
+      "balance": 270.10,
+      "limit": 500.00
+    },
+    "card": {
+      "id": 5,
+      "number": "xxxx xxxx xxxx 5555",
+      "limit": 800.00
+    }
+  },
+  {
+    "id": 6,
+    "name": "Amanda",
+    "account": {
+      "id": 6,
+      "number": "06.321654-0",
+      "agency": "2035",
+      "balance": 5000.75,
+      "limit": 4000.00
+    },
+    "card": {
+      "id": 6,
+      "number": "xxxx xxxx xxxx 6666",
+      "limit": 4500.00
+    }
+  },
+  {
+    "id": 7,
+    "name": "Fernanda",
+    "account": {
+      "id": 7,
+      "number": "07.789654-1",
+      "agency": "2036",
+      "balance": 920.20,
+      "limit": 1500.00
+    },
+    "card": {
+      "id": 7,
+      "number": "xxxx xxxx xxxx 7777",
+      "limit": 2500.00
+    }
+  },
+  {
+    "id": 8,
+    "name": "Lucas",
+    "account": {
+      "id": 8,
+      "number": "08.456321-3",
+      "agency": "2037",
+      "balance": 120.00,
+      "limit": 400.00
+    },
+    "card": {
+      "id": 8,
+      "number": "xxxx xxxx xxxx 8888",
+      "limit": 700.00
+    }
+  },
+  {
+    "id": 9,
+    "name": "Juliana",
+    "account": {
+      "id": 9,
+      "number": "09.753159-4",
+      "agency": "2038",
+      "balance": 2440.44,
+      "limit": 2500.00
+    },
+    "card": {
+      "id": 9,
+      "number": "xxxx xxxx xxxx 9999",
+      "limit": 3000.00
+    }
+  },
+  {
+    "id": 10,
+    "name": "Gabriel",
+    "account": {
+      "id": 10,
+      "number": "10.951357-8",
+      "agency": "2039",
+      "balance": 1750.99,
+      "limit": 2200.00
+    },
+    "card": {
+      "id": 10,
+      "number": "xxxx xxxx xxxx 1010",
+      "limit": 2700.00
+    }
+  }
 ]
