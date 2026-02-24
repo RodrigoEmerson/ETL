@@ -1,0 +1,11 @@
+mkdir -p ~/.config/autostart
+cat << 'EOF' > ~/.config/autostart/ativar-som.desktop
+[Desktop Entry]
+Type=Application
+Exec=sh -c "sleep 5 && amixer sset 'DAC' 100% unmute"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Ativar Som
+Comment=Força o volume do DAC ao ligar
+EOF
