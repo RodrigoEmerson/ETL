@@ -9,3 +9,25 @@ X-GNOME-Autostart-enabled=true
 Name=Ativar Som
 Comment=Força o volume do DAC ao ligar
 EOF
+
+
+
+
+
+mkdir -p ~/.scripts
+cat << 'EOF' > ~/.scripts/som.sh
+#!/bin/bash
+sleep 15
+amixer sset 'DAC' 100% unmute
+sleep 10
+amixer sset 'DAC' 100% unmute
+EOF
+chmod +x ~/.scripts/som.sh
+
+cat << 'EOF' > ~/.config/autostart/ativar-som.desktop
+[Desktop Entry]
+Type=Application
+Exec=bash -c "$HOME/.scripts/som.sh"
+Name=Ativar Som
+X-GNOME-Autostart-enabled=true
+EOF
